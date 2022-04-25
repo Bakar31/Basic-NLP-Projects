@@ -12,8 +12,8 @@ df = pd.DataFrame(data)
 df.drop('article_link', axis = 1, inplace=True)
 #print(df.head())
 
-labels = list(df.is_sarcastic)
-sentences = list(df.headline)
+labels = np.array(df.is_sarcastic)
+sentences = np.array(df.headline)
 print('Number of sentences and labels: ', len(labels), len(sentences))
 
 x_train, x_test, y_train, y_test = train_test_split(sentences, labels, test_size=0.2)

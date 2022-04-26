@@ -4,7 +4,7 @@ This is a text generation project.
 The data is created from  Eminems `Music to Be Murdered By` album. This corpus has total 1014 lines and 2228 words.
 
 ## Accuracy:
-![alt text](https://github.com/Bakar31/NLP-Projects/blob/master/Sarcasm%20Detection/accuracy.png)
+![alt text](https://github.com/Bakar31/NLP-Projects/blob/master/Eminem%20Song%20Generate/accuracy.png)
 
 ## Sample Output:
 I am  the complete opposite of these retards 
